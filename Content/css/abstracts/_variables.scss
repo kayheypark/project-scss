@@ -1,0 +1,33 @@
+﻿//의미가 담긴 색상
+$color-transparent  : rgba(0,0,0,0);    //없음
+$color-space        : #b0bdd8;          //공간
+$color-default      : #b0bdd8;          //기본
+$color-secondary    : #b0bdd8;          //두번째
+$color-brand        : red;              //포인트
+$color-positive     : #b0bdd8;          //긍정
+$color-negative     : #b0bdd8;          //부정
+$color-seccess      : #b0bdd8;          //성공
+$color-fail         : #b0bdd8;          //실패
+
+//의미가 담긴 배수
+$times-minist        : 0.3125;
+$times-mini          : 0.4167;
+$times-tinist        : 0.5;
+$times-tiny          : 0.625;
+$times-smaller       : 0.7143;
+$times-small         : 0.8334;
+$times-default       : 1;                   //기본
+$times-big           : 1.2;
+$times-bigger        : 1.4;
+$times-large         : 1.6;
+$times-larger        : 2.0;
+$times-great         : 2.4;
+$times-greatst       : 3.2;
+
+//의미가 담긴 두께
+$fontWeight-thin : 100;
+$fontWeight-light : 300;
+$fontWeight-regular : 400;
+$fontWeight-medium : 500;
+$fontWeight-bold : 700;
+$fontWeight-black : 900;

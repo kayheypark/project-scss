@@ -1,0 +1,16 @@
+﻿*,
+*::after,
+*::before { box-sizing: border-box; }
+
+form { width: 100%; }
+
+input[radio],
+input[checkbox],
+select { cursor: pointer; }
+
+//테이블 셀 너비 고정 (컨텐츠에 따라 너비 늘어남 방지)
+table {
+    width: 100%;
+    table-layout: fixed;
+    word-break: break-all;
+}

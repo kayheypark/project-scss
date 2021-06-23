@@ -1,0 +1,18 @@
+﻿//특정한 형태를 지정하는 mixin
+
+//Flex
+@mixin Flex() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+//이미지 url만 제외한 div의 백그라운드 설정
+@mixin BackgroundImage() {
+
+}
+
+//가로와 세로의 비율을 맞추는 백그라운드 설정
+@mixin BackgroundImageRatio() {
+
+}

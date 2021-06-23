@@ -1,0 +1,15 @@
+﻿$root-font-size : 16px;
+
+html { font-size: $root-font-size; font-family: -apple-system, 'NotoSanKr', sans-serif; font-weight: $fontWeight-regular; }
+
+h1 { font-weight: $fontWeight-bold; margin-bottom: #{$times-big}rem; }
+h2 { font-weight: $fontWeight-bold; margin-bottom: #{$times-bigger}rem; }
+h3 { font-weight: $fontWeight-bold; margin-bottom: #{$times-large}rem; }
+h4 { font-weight: $fontWeight-bold; margin-bottom: #{$times-larger}rem; }
+h5 { font-weight: $fontWeight-bold; margin-bottom: #{$times-great}rem; }
+h6 { font-weight: $fontWeight-bold; margin-bottom: #{$times-greatst}rem; }
+
+a { margin-bottom: 0; }
+p { margin-bottom: 0; }
+
+hr {}

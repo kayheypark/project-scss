@@ -1,0 +1,36 @@
+﻿//접근성을 위한 숨김 텍스트
+.reader {
+    overflow: hidden;
+    position:absolute;
+    width:0;
+    height:0;
+    line-height:0;
+    text-indent:-9999px;
+}
+
+//마진, 패딩 0
+.mt-0 { margin-top: 0; }
+.mb-0 { margin-bottom: 0; }
+.pt-0 { padding-top: 0; }
+.pb-0 { padding-bottom: 0; }
+
+//말줄임 효과
+.elipsis-1 {
+    display: inline-block;
+    max-width: 60%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+@for $i from 2 through 10 {
+    .elipsis-#{$i} {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        line-height: 1em;
+        height: #{$i}em;
+        -webkit-line-clamp: #{$i}; 
+        -webkit-box-orient: vertical;
+    }
+}
+  

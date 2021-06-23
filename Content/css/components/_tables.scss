@@ -1,0 +1,28 @@
+﻿
+.table-wrap {
+
+    .table {
+
+        //셀 중앙 정렬
+        vertical-align: middle;
+        text-align: center;
+
+        //셀 패딩 지정
+        th { padding: 12px; }
+        td { padding: 12px; }
+
+        thead {
+            th { font-weight: $fontWeight-bold; }
+        }
+
+        tbody {
+            td { font-weight: $fontWeight-regular; }
+        }
+
+        &-type { // 테이블의 종류
+            &-nohead {
+                th[scope="row"] { font-weight: $fontWeight-bold; }
+            }
+        }
+    }
+}
